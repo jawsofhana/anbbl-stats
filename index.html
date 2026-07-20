@@ -44,6 +44,7 @@
 #abst-root .streak-card .num { font-size:20px; font-weight:600; color:#f0c060; }
 #abst-root .streak-card .lbl { font-size:11px; color:#999; text-transform:uppercase; letter-spacing:0.03em; }
 #abst-root .subtable { font-size:12px; }
+#abst-root .table-scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
 #abst-root .no-data { color:#777; font-size:12px; font-style:italic; padding:6px 0; }
 
 </style>
@@ -64,6 +65,7 @@
   <input id="abst-filter" placeholder="Filter by team, coach or race...">
 </div>
 <div id="abst-coachSummary" class="coach-summary"></div>
+<div class="table-scroll">
 <table id="abst-tbl">
 <thead>
 <tr>
@@ -88,6 +90,7 @@
 </thead>
 <tbody></tbody>
 </table>
+</div>
 <div id="abst-empty-note">No teams played in this period.</div>
 
 <div id="abst-coachDetail" class="coach-detail">
@@ -176,7 +179,7 @@ function renderGroupTable(containerId, groups, labelHeader) {
   const keys = Object.keys(groups);
   if (!keys.length) { el.innerHTML = '<div class="no-data">No data available.</div>'; return; }
   const rows = keys.map(k => ({label: k, ...groups[k]})).sort((a, b) => b.gp - a.gp);
-  let html = `<table class="subtable"><thead><tr>
+  let html = `<div class="table-scroll"><table class="subtable"><thead><tr>
     <th>${labelHeader}</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>Perf%</th>
     <th>TD+</th><th>TD-</th><th>TD&Delta;</th><th>Cas+</th><th>Cas-</th><th>Cas&Delta;</th><th>Pts</th>
   </tr></thead><tbody>`;
@@ -187,7 +190,7 @@ function renderGroupTable(containerId, groups, labelHeader) {
       <td>${r.cas_for}</td><td>${r.cas_against}</td><td>${fmtDelta(r.cas_diff)}</td>
       <td>${r.points}</td></tr>`;
   });
-  html += '</tbody></table>';
+  html += '</tbody></table></div>';
   el.innerHTML = html;
 }
 
@@ -207,7 +210,7 @@ function renderLastGames(games) {
   document.getElementById('abst-lastGamesHeading').textContent =
     games.length ? `Last ${games.length} games played` : 'Last games played';
   if (!games.length) { el.innerHTML = '<div class="no-data">No dated games available for this coach.</div>'; return; }
-  let html = `<table class="subtable"><thead><tr>
+  let html = `<div class="table-scroll"><table class="subtable"><thead><tr>
     <th>Date</th><th>Team</th><th>Opponent</th><th>Result</th><th>Score</th><th>Cas</th><th>Tournament</th>
   </tr></thead><tbody>`;
   games.forEach(g => {
@@ -218,7 +221,7 @@ function renderLastGames(games) {
       <td class="${cls}">${res}</td><td>${g.own_td}-${g.opp_td}</td>
       <td>${g.own_cas}-${g.opp_cas}</td><td style="text-align:left">${g.tournament || ''}</td></tr>`;
   });
-  html += '</tbody></table>';
+  html += '</tbody></table></div>';
   el.innerHTML = html;
 }
 
