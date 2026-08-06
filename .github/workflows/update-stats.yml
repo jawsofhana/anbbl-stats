@@ -1,0 +1,48 @@
+name: Update AnBBL stats
+
+on:
+  schedule:
+    # 03:00 UTC every Tuesday (04:00/05:00 in Norway depending on DST).
+    # Adjust the hour if you'd rather it run at a different time of day.
+    - cron: '0 3 * * 2'
+  workflow_dispatch: {}  # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write  # needed so the workflow can commit the updated data/output back
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: false  # never cancel a run partway through a crawl
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run crawler
+        run: python3 crawl.py
+
+      - name: Build site
+        run: python3 build_site.py
+
+      - name: Publish index.html to repo root
+        run: cp output/index.html index.html
+
+      - name: Commit and push updated data + site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Automated stats update ($(date -u '+%Y-%m-%d'))"
+            git push
+          fi
