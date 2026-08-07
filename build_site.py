@@ -221,8 +221,14 @@ function rebuildCoachOptions() {{
     o.value = c; o.textContent = c;
     coachSelect.appendChild(o);
   }});
-  coachSelect.value = currentCoach && coaches.includes(currentCoach) ? currentCoach : '';
-  currentCoach = coachSelect.value;
+  // Only sync what the dropdown *displays* - don't clobber currentCoach
+  // itself just because this year's option list doesn't include them.
+  // Selecting a coach always means "viewing their detail page" (the list
+  // is hidden whenever currentCoach is set), so resetting it here would
+  // silently kick the user back to the list every time they switched to
+  // a year that coach had a quiet season - instead of just showing "no
+  // games this year" for them, which is what should happen.
+  coachSelect.value = coaches.includes(currentCoach) ? currentCoach : '';
 }}
 
 function updateCoachSummary(rowsForCoach) {{
@@ -283,10 +289,14 @@ function renderStreaks(s, gamesDated) {{
     <div class="streak-card"><div class="num">${{s.longest_loss}}</div><div class="lbl">Longest loss streak</div></div>`;
 }}
 
+function periodLabel() {{
+  return currentPeriod === 'all' ? '' : ` in ${{currentPeriod === 'unknown' ? 'an unknown year' : currentPeriod}}`;
+}}
+
 function renderLastGames(games) {{
   const el = document.getElementById('abst-lastGamesTable');
   document.getElementById('abst-lastGamesHeading').textContent =
-    games.length ? `Last ${{games.length}} games played` : 'Last games played';
+    games.length ? `Last ${{games.length}} games played${{periodLabel()}}` : `Games played${{periodLabel()}}`;
   if (!games.length) {{ el.innerHTML = '<div class="no-data">No dated games available for this coach.</div>'; return; }}
   let html = `<div class="table-scroll"><table class="subtable"><thead><tr>
     <th>Date</th><th>Team</th><th>Opponent</th><th>Result</th><th>Score</th><th>Cas</th><th>Tournament</th>
@@ -359,7 +369,7 @@ function renderTeamStreaks(s, gamesDated) {{
 function renderTeamGames(games) {{
   const el = document.getElementById('abst-teamGamesTable');
   document.getElementById('abst-teamGamesHeading').textContent =
-    games.length ? `All ${{games.length}} games played` : 'All games played';
+    games.length ? `All ${{games.length}} games played${{periodLabel()}}` : `Games played${{periodLabel()}}`;
   if (!games.length) {{ el.innerHTML = '<div class="no-data">No dated games available for this team.</div>'; return; }}
   let html = `<div class="table-scroll"><table class="subtable"><thead><tr>
     <th>Date</th><th>Opponent</th><th>Race</th><th>Team</th><th>R</th><th>Score</th><th>Cas</th><th>Tournament</th>
@@ -438,11 +448,27 @@ function selectTeam(key, scroll) {{
   if (scroll) window.scrollTo({{top: 0, behavior: 'smooth'}});
 }}
 
+const EMPTY_COACH_PROFILE = {{
+  first_game: null, last_game: null, games_dated: 0, games_total: 0,
+  streaks: {{current_type: null, current_len: 0, longest_win: 0, longest_loss: 0, longest_unbeaten: 0}},
+  against_race: {{}}, with_race: {{}}, against_coach: {{}}, by_weekday: {{}}, last_games: []
+}};
+const EMPTY_TEAM_PROFILE = {{
+  first_game: null, last_game: null, games_dated: 0, games_total: 0,
+  stats: {{gp:0, w:0, d:0, l:0, w_avg:0, d_avg:0, l_avg:0, performance_pct:0,
+    td_for:0, td_against:0, td_diff:0, td_for_avg:0, td_against_avg:0,
+    cas_for:0, cas_against:0, cas_diff:0, cas_for_avg:0, cas_against_avg:0,
+    kills_for:0, kills_against:0, kills_for_avg:0, kills_against_avg:0, points:0, points_avg:0}},
+  streaks: {{current_type: null, current_len: 0, longest_win: 0, longest_loss: 0, longest_kill: 0}},
+  all_games: []
+}};
+
 function renderTeamDetail() {{
   const panel = document.getElementById('abst-teamDetail');
-  const p = currentTeamKey ? teamProfiles[currentTeamKey] : null;
   updateViewMode();
-  if (!p) {{ panel.style.display = 'none'; return; }}
+  if (!currentTeamKey) {{ panel.style.display = 'none'; return; }}
+  const byPeriod = teamProfiles[currentPeriod] || {{}};
+  const p = byPeriod[currentTeamKey] || EMPTY_TEAM_PROFILE;
   const row = (periods['all'] || []).find(r => r.key === currentTeamKey);
   panel.style.display = 'block';
   renderTeamInfo(p, row || {{}});
@@ -453,9 +479,10 @@ function renderTeamDetail() {{
 
 function renderCoachDetail() {{
   const panel = document.getElementById('abst-coachDetail');
-  const p = currentCoach ? profiles[currentCoach] : null;
   updateViewMode();
-  if (!p) {{ panel.style.display = 'none'; return; }}
+  if (!currentCoach) {{ panel.style.display = 'none'; return; }}
+  const byPeriod = profiles[currentPeriod] || {{}};
+  const p = byPeriod[currentCoach] || EMPTY_COACH_PROFILE;
   panel.style.display = 'block';
   renderStreaks(p.streaks, p.games_dated);
   renderGroupTable('abst-withRaceTable', p.with_race, 'Race');
@@ -636,7 +663,20 @@ def _finalize_group(g):
             "td_diff": g["td_for"] - g["td_against"], "cas_diff": g["cas_for"] - g["cas_against"]}
 
 
-def build_coach_profiles(matches):
+def _group_matches_by_period(matches):
+    """Same grouping the main team table already uses: 'all' plus one
+    bucket per year found. Undated matches only count in 'all', same as
+    everywhere else in this build - they can't be placed in a specific
+    year, so they don't get a phantom 'unknown' bucket here either."""
+    groups = {"all": list(matches)}
+    for m in matches:
+        y = m.get("year")
+        if y:
+            groups.setdefault(y, []).append(m)
+    return groups
+
+
+def _build_coach_profiles_single(matches):
     """For every individual coach that appears on at least one match side,
     build the same breakdowns the old reference site's coach page showed:
     streaks, performance against/with race, performance against coach,
@@ -751,11 +791,20 @@ def build_coach_profiles(matches):
     return profiles
 
 
+def build_coach_profiles_by_period(matches):
+    """Same coach profiles as above, but computed separately per year (plus
+    'all') so the year dropdown actually scopes coach detail stats instead
+    of silently always showing all-time numbers regardless of what's
+    selected."""
+    groups = _group_matches_by_period(matches)
+    return {period: _build_coach_profiles_single(sub) for period, sub in groups.items()}
+
+
 def _team_key(side):
     return side["id"] if side["id"] else f"name:{side['name']}"
 
 
-def build_team_profiles(matches):
+def _build_team_profiles_single(matches):
     """For every team, build the same breakdowns the old reference site's
     team page showed: info box (coach/race/TV/first-last game), a
     statistics table with per-game averages alongside totals, streaks, and
@@ -856,6 +905,13 @@ def build_team_profiles(matches):
     return profiles
 
 
+def build_team_profiles_by_period(matches):
+    """Same team profiles as above, computed separately per year (plus
+    'all'), for the same reason as the coach version."""
+    groups = _group_matches_by_period(matches)
+    return {period: _build_team_profiles_single(sub) for period, sub in groups.items()}
+
+
 LEADERBOARD_SPECS = [
     ("top_stars", "Top stars", "spp", "SPP"),
     ("most_expensive", "Most expensive", "value", "Value"),
@@ -919,8 +975,8 @@ def main():
             periods.setdefault(year, []).append(row_dict(t, stats))
 
     undated = sum(1 for m in matches if not m.get("year"))
-    coach_profiles = build_coach_profiles(matches)
-    team_profiles = build_team_profiles(matches)
+    coach_profiles = build_coach_profiles_by_period(matches)
+    team_profiles = build_team_profiles_by_period(matches)
 
     players_path = os.path.join(DATA_DIR, "players.json")
     leaderboards = {}
