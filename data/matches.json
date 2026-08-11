@@ -68254,5 +68254,165 @@
   },
   "date": "August 5th, 2026",
   "year": "2026"
+ },
+ {
+  "match_id": 2461,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 14000,
+  "home": {
+   "id": "san",
+   "name": "Sanderud Stars",
+   "td": 1,
+   "cas": 2,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Chaos Chosen"
+  },
+  "away": {
+   "id": "gho",
+   "name": "Ghost",
+   "td": 0,
+   "cas": 0,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Lizardmen"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2462,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Morgentrim",
+  "gate": 9000,
+  "home": {
+   "id": "wac",
+   "name": "The Wacking Kraken Buccaneers",
+   "td": 2,
+   "cas": 3,
+   "kills": 0,
+   "coach": "ColdNChilly",
+   "coaches": [
+    "ColdNChilly"
+   ],
+   "race": "Chaos Dwarf"
+  },
+  "away": {
+   "id": "das2",
+   "name": "Da Scrappaz",
+   "td": 0,
+   "cas": 1,
+   "kills": 0,
+   "coach": "JTBringe",
+   "coaches": [
+    "JTBringe"
+   ],
+   "race": "Orc"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2463,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, søndagsball",
+  "gate": 13000,
+  "home": {
+   "id": "jur",
+   "name": "Jurassorc Raiders",
+   "td": 1,
+   "cas": 2,
+   "kills": 1,
+   "coach": "AndersZ",
+   "coaches": [
+    "AndersZ"
+   ],
+   "race": "Orc"
+  },
+  "away": {
+   "id": "nox",
+   "name": "Nox Nobilis",
+   "td": 0,
+   "cas": 2,
+   "kills": 0,
+   "coach": "Anders V",
+   "coaches": [
+    "Anders V"
+   ],
+   "race": "Dark Elf"
+  },
+  "date": "August 9th, 2026",
+  "year": "2026"
+ },
+ {
+  "match_id": 2464,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, søndagsball",
+  "gate": 13000,
+  "home": {
+   "id": "var",
+   "name": "Varhall, Skaller og Snus",
+   "td": 2,
+   "cas": 1,
+   "kills": 0,
+   "coach": "ColdNChilly",
+   "coaches": [
+    "ColdNChilly"
+   ],
+   "race": "Khorne"
+  },
+  "away": {
+   "id": "gho",
+   "name": "Ghost",
+   "td": 2,
+   "cas": 2,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Lizardmen"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2465,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, søndagsball",
+  "gate": 10000,
+  "home": {
+   "id": "god",
+   "name": "Godtogblandet",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "Egarb",
+   "coaches": [
+    "Egarb"
+   ],
+   "race": "Old World Alliance"
+  },
+  "away": {
+   "id": "lep",
+   "name": "Leprous",
+   "td": 1,
+   "cas": 2,
+   "kills": 1,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Nurgle"
+  },
+  "date": null,
+  "year": null
  }
 ]
