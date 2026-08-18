@@ -8452,6 +8452,64 @@
   }
  },
  {
+  "id": "jur",
+  "name": "Jurassorc Raiders",
+  "coach": "AndersZ",
+  "coaches": [
+   "AndersZ"
+  ],
+  "race": "Orc",
+  "tv": "1550 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Blåmandag",
+   "Semi Pro XXII, Fredagsball 1#",
+   "Semi Pro XXII, Kulturutveksling#1",
+   "Semi Pro XXII, Onsdagsball 1#",
+   "Semi Pro XXII, Søndagsball #1",
+   "Semi Pro XXII, Søndagsball #5",
+   "Semi Pro XXII, Søndagsball #6",
+   "Semi Pro XXII, Søndagsball#1",
+   "Semi Pro XXII, Tirsdags trortur",
+   "Semi Pro XXII, kulturutveksling",
+   "Semi Pro XXII, lørdagsball",
+   "Semi Pro XXII, onsdagsball#1",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 16,
+   "w": 7,
+   "d": 4,
+   "l": 5,
+   "td_for": 22,
+   "td_against": 20,
+   "cas_for": 40,
+   "cas_against": 21,
+   "kills_for": 7,
+   "points": 52,
+   "performance_pct": 56.25,
+   "td_diff": 2,
+   "cas_diff": 19
+  },
+  "by_year": {
+   "2026": {
+    "gp": 15,
+    "w": 7,
+    "d": 3,
+    "l": 5,
+    "td_for": 21,
+    "td_against": 19,
+    "cas_for": 34,
+    "cas_against": 21,
+    "kills_for": 6,
+    "points": 49,
+    "performance_pct": 56.67,
+    "td_diff": 2,
+    "cas_diff": 13
+   }
+  }
+ },
+ {
   "id": "osl",
   "name": "0767 Oslo Rams",
   "coach": "The Ref",
@@ -9119,63 +9177,6 @@
     "performance_pct": 56.25,
     "td_diff": 6,
     "cas_diff": 0
-   }
-  }
- },
- {
-  "id": "jur",
-  "name": "Jurassorc Raiders",
-  "coach": "AndersZ",
-  "coaches": [
-   "AndersZ"
-  ],
-  "race": "Orc",
-  "tv": "1395 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Blåmandag",
-   "Semi Pro XXII, Fredagsball 1#",
-   "Semi Pro XXII, Kulturutveksling#1",
-   "Semi Pro XXII, Onsdagsball 1#",
-   "Semi Pro XXII, Søndagsball #1",
-   "Semi Pro XXII, Søndagsball #5",
-   "Semi Pro XXII, Søndagsball #6",
-   "Semi Pro XXII, Tirsdags trortur",
-   "Semi Pro XXII, kulturutveksling",
-   "Semi Pro XXII, lørdagsball",
-   "Semi Pro XXII, onsdagsball#1",
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 15,
-   "w": 7,
-   "d": 3,
-   "l": 5,
-   "td_for": 21,
-   "td_against": 19,
-   "cas_for": 34,
-   "cas_against": 21,
-   "kills_for": 6,
-   "points": 49,
-   "performance_pct": 56.67,
-   "td_diff": 2,
-   "cas_diff": 13
-  },
-  "by_year": {
-   "2026": {
-    "gp": 15,
-    "w": 7,
-    "d": 3,
-    "l": 5,
-    "td_for": 21,
-    "td_against": 19,
-    "cas_for": 34,
-    "cas_against": 21,
-    "kills_for": 6,
-    "points": 49,
-    "performance_pct": 56.67,
-    "td_diff": 2,
-    "cas_diff": 13
    }
   }
  },
@@ -14372,6 +14373,57 @@
   }
  },
  {
+  "id": "gho",
+  "name": "Ghost",
+  "coach": "RagnarKH",
+  "coaches": [
+   "RagnarKH"
+  ],
+  "race": "Lizardmen",
+  "tv": "1410 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Onsdagsball 1#",
+   "Semi Pro XXII, Stars Ghosted",
+   "Semi Pro XXII, Søndagsball#2",
+   "Semi Pro XXII, TK7 Arena",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 9,
+   "w": 4,
+   "d": 2,
+   "l": 3,
+   "td_for": 12,
+   "td_against": 10,
+   "cas_for": 16,
+   "cas_against": 20,
+   "kills_for": 2,
+   "points": 29,
+   "performance_pct": 55.56,
+   "td_diff": 2,
+   "cas_diff": -4
+  },
+  "by_year": {
+   "2026": {
+    "gp": 6,
+    "w": 3,
+    "d": 1,
+    "l": 2,
+    "td_for": 9,
+    "td_against": 7,
+    "cas_for": 10,
+    "cas_against": 15,
+    "kills_for": 1,
+    "points": 20,
+    "performance_pct": 58.33,
+    "td_diff": 2,
+    "cas_diff": -5
+   }
+  }
+ },
+ {
   "id": "und",
   "name": "Underworld Overlords",
   "coach": "Hannibal Hector",
@@ -15224,6 +15276,56 @@
   }
  },
  {
+  "id": "lep",
+  "name": "Leprous",
+  "coach": "Manoflore",
+  "coaches": [
+   "Manoflore"
+  ],
+  "race": "Nurgle",
+  "tv": "1300 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Kulturutveksling#1",
+   "Semi Pro XXII, Søndagsball#1",
+   "Semi Pro XXII, TK7 Arena",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 8,
+   "w": 3,
+   "d": 3,
+   "l": 2,
+   "td_for": 9,
+   "td_against": 6,
+   "cas_for": 13,
+   "cas_against": 14,
+   "kills_for": 2,
+   "points": 26,
+   "performance_pct": 56.25,
+   "td_diff": 3,
+   "cas_diff": -1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 6,
+    "w": 3,
+    "d": 1,
+    "l": 2,
+    "td_for": 7,
+    "td_against": 4,
+    "cas_for": 11,
+    "cas_against": 8,
+    "kills_for": 1,
+    "points": 20,
+    "performance_pct": 58.33,
+    "td_diff": 3,
+    "cas_diff": 3
+   }
+  }
+ },
+ {
   "id": "fir3",
   "name": "Fireball Blitzers",
   "coach": "Grimhat",
@@ -15776,56 +15878,6 @@
   }
  },
  {
-  "id": "gho",
-  "name": "Ghost",
-  "coach": "RagnarKH",
-  "coaches": [
-   "RagnarKH"
-  ],
-  "race": "Lizardmen",
-  "tv": "1510 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena",
-   "Semi Pro XXII, Onsdagsball 1#",
-   "Semi Pro XXII, Stars Ghosted",
-   "Semi Pro XXII, TK7 Arena",
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 8,
-   "w": 3,
-   "d": 2,
-   "l": 3,
-   "td_for": 11,
-   "td_against": 10,
-   "cas_for": 12,
-   "cas_against": 18,
-   "kills_for": 1,
-   "points": 24,
-   "performance_pct": 50.0,
-   "td_diff": 1,
-   "cas_diff": -6
-  },
-  "by_year": {
-   "2026": {
-    "gp": 6,
-    "w": 3,
-    "d": 1,
-    "l": 2,
-    "td_for": 9,
-    "td_against": 7,
-    "cas_for": 10,
-    "cas_against": 15,
-    "kills_for": 1,
-    "points": 20,
-    "performance_pct": 58.33,
-    "td_diff": 2,
-    "cas_diff": -5
-   }
-  }
- },
- {
   "id": "dea2",
   "name": "Death Stars",
   "coach": "RagnarKH",
@@ -16178,55 +16230,6 @@
     "performance_pct": 0.0,
     "td_diff": -1,
     "cas_diff": 0
-   }
-  }
- },
- {
-  "id": "lep",
-  "name": "Leprous",
-  "coach": "Manoflore",
-  "coaches": [
-   "Manoflore"
-  ],
-  "race": "Nurgle",
-  "tv": "1250 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena",
-   "Semi Pro XXII, Kulturutveksling#1",
-   "Semi Pro XXII, TK7 Arena",
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 7,
-   "w": 3,
-   "d": 2,
-   "l": 2,
-   "td_for": 8,
-   "td_against": 5,
-   "cas_for": 13,
-   "cas_against": 8,
-   "kills_for": 2,
-   "points": 23,
-   "performance_pct": 57.14,
-   "td_diff": 3,
-   "cas_diff": 5
-  },
-  "by_year": {
-   "2026": {
-    "gp": 6,
-    "w": 3,
-    "d": 1,
-    "l": 2,
-    "td_for": 7,
-    "td_against": 4,
-    "cas_for": 11,
-    "cas_against": 8,
-    "kills_for": 1,
-    "points": 20,
-    "performance_pct": 58.33,
-    "td_diff": 3,
-    "cas_diff": 3
    }
   }
  },
@@ -17524,6 +17527,61 @@
   }
  },
  {
+  "id": "dea3",
+  "name": "Death's Favour",
+  "coach": "Ninja Returns",
+  "coaches": [
+   "Ninja Returns"
+  ],
+  "race": "Shambling Undead",
+  "tv": "1560 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Hairofdadog!",
+   "Semi Pro XXII, Kulturutveksling#1",
+   "Semi Pro XXII, Nellie søndag",
+   "Semi Pro XXII, Nelliesøndag",
+   "Semi Pro XXII, Søndagsball",
+   "Semi Pro XXII, Søndagsball #4",
+   "Semi Pro XXII, Søndagsball#1",
+   "Semi Pro XXII, Søndagsball#2",
+   "Semi Pro XXII, TK7 Arena",
+   "Semi Pro XXII, søndagsball#1"
+  ],
+  "all": {
+   "gp": 15,
+   "w": 0,
+   "d": 3,
+   "l": 12,
+   "td_for": 9,
+   "td_against": 29,
+   "cas_for": 25,
+   "cas_against": 37,
+   "kills_for": 5,
+   "points": 21,
+   "performance_pct": 10.0,
+   "td_diff": -20,
+   "cas_diff": -12
+  },
+  "by_year": {
+   "2026": {
+    "gp": 14,
+    "w": 0,
+    "d": 3,
+    "l": 11,
+    "td_for": 9,
+    "td_against": 28,
+    "cas_for": 23,
+    "cas_against": 33,
+    "kills_for": 5,
+    "points": 20,
+    "performance_pct": 10.71,
+    "td_diff": -19,
+    "cas_diff": -10
+   }
+  }
+ },
+ {
   "id": "hel",
   "name": "Hell Pit Reapers",
   "coach": "Ole-Anders",
@@ -18248,61 +18306,6 @@
     "performance_pct": 0.0,
     "td_diff": -1,
     "cas_diff": -6
-   }
-  }
- },
- {
-  "id": "dea3",
-  "name": "Death's Favour",
-  "coach": "Ninja Returns",
-  "coaches": [
-   "Ninja Returns"
-  ],
-  "race": "Shambling Undead",
-  "tv": "1630 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Hairofdadog!",
-   "Semi Pro XXII, Kulturutveksling#1",
-   "Semi Pro XXII, Nellie søndag",
-   "Semi Pro XXII, Nelliesøndag",
-   "Semi Pro XXII, Søndagsball",
-   "Semi Pro XXII, Søndagsball #4",
-   "Semi Pro XXII, Søndagsball#1",
-   "Semi Pro XXII, Søndagsball#2",
-   "Semi Pro XXII, TK7 Arena",
-   "Semi Pro XXII, søndagsball#1"
-  ],
-  "all": {
-   "gp": 14,
-   "w": 0,
-   "d": 3,
-   "l": 11,
-   "td_for": 9,
-   "td_against": 28,
-   "cas_for": 23,
-   "cas_against": 33,
-   "kills_for": 5,
-   "points": 20,
-   "performance_pct": 10.71,
-   "td_diff": -19,
-   "cas_diff": -10
-  },
-  "by_year": {
-   "2026": {
-    "gp": 14,
-    "w": 0,
-    "d": 3,
-    "l": 11,
-    "td_for": 9,
-    "td_against": 28,
-    "cas_for": 23,
-    "cas_against": 33,
-    "kills_for": 5,
-    "points": 20,
-    "performance_pct": 10.71,
-    "td_diff": -19,
-    "cas_diff": -10
    }
   }
  },
@@ -22402,7 +22405,7 @@
    "JulieMB"
   ],
   "race": "High Elf",
-  "tv": "1110 k",
+  "tv": "1140 k",
   "deleted": false,
   "tournaments": [
    "Semi Pro XXII, Casa del Bringe",
@@ -24865,6 +24868,52 @@
   }
  },
  {
+  "id": "ast",
+  "name": "Astra Imperialis",
+  "coach": "JTBringe",
+  "coaches": [
+   "JTBringe"
+  ],
+  "race": "High Elf",
+  "tv": "1075 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Søndagsball#3"
+  ],
+  "all": {
+   "gp": 1,
+   "w": 1,
+   "d": 0,
+   "l": 0,
+   "td_for": 2,
+   "td_against": 0,
+   "cas_for": 3,
+   "cas_against": 2,
+   "kills_for": 1,
+   "points": 5,
+   "performance_pct": 100.0,
+   "td_diff": 2,
+   "cas_diff": 1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "td_for": 2,
+    "td_against": 0,
+    "cas_for": 3,
+    "cas_against": 2,
+    "kills_for": 1,
+    "points": 5,
+    "performance_pct": 100.0,
+    "td_diff": 2,
+    "cas_diff": 1
+   }
+  }
+ },
+ {
   "id": "cap",
   "name": "Capitol City Lions",
   "coach": "Heimlich Von Doom",
@@ -26745,6 +26794,53 @@
   }
  },
  {
+  "id": "nox",
+  "name": "Nox Nobilis",
+  "coach": "Anders V",
+  "coaches": [
+   "Anders V"
+  ],
+  "race": "Dark Elf",
+  "tv": "760 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Søndagsball#3",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 2,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "td_for": 0,
+   "td_against": 3,
+   "cas_for": 4,
+   "cas_against": 5,
+   "kills_for": 1,
+   "points": 2,
+   "performance_pct": 0.0,
+   "td_diff": -3,
+   "cas_diff": -1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "td_for": 0,
+    "td_against": 3,
+    "cas_for": 4,
+    "cas_against": 5,
+    "kills_for": 1,
+    "points": 2,
+    "performance_pct": 0.0,
+    "td_diff": -3,
+    "cas_diff": -1
+   }
+  }
+ },
+ {
   "id": "vik",
   "name": "Viking Kommandos",
   "coach": "?",
@@ -27858,7 +27954,7 @@
    "mael"
   ],
   "race": "Chaos Dwarf",
-  "tv": "980 k",
+  "tv": "1060 k",
   "deleted": false,
   "tournaments": [
    "Semi Pro XXII, Søndagsball #3"
@@ -27893,52 +27989,6 @@
     "performance_pct": 0.0,
     "td_diff": -2,
     "cas_diff": -1
-   }
-  }
- },
- {
-  "id": "nox",
-  "name": "Nox Nobilis",
-  "coach": "Anders V",
-  "coaches": [
-   "Anders V"
-  ],
-  "race": "Dark Elf",
-  "tv": "930 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "td_for": 0,
-   "td_against": 1,
-   "cas_for": 2,
-   "cas_against": 2,
-   "kills_for": 0,
-   "points": 1,
-   "performance_pct": 0.0,
-   "td_diff": -1,
-   "cas_diff": 0
-  },
-  "by_year": {
-   "2026": {
-    "gp": 1,
-    "w": 0,
-    "d": 0,
-    "l": 1,
-    "td_for": 0,
-    "td_against": 1,
-    "cas_for": 2,
-    "cas_against": 2,
-    "kills_for": 0,
-    "points": 1,
-    "performance_pct": 0.0,
-    "td_diff": -1,
-    "cas_diff": 0
    }
   }
  }

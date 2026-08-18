@@ -68414,5 +68414,101 @@
   },
   "date": null,
   "year": null
+ },
+ {
+  "match_id": 2466,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Søndagsball#1",
+  "gate": 14000,
+  "home": {
+   "id": "lep",
+   "name": "Leprous",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Nurgle"
+  },
+  "away": {
+   "id": "jur",
+   "name": "Jurassorc Raiders",
+   "td": 1,
+   "cas": 6,
+   "kills": 1,
+   "coach": "AndersZ",
+   "coaches": [
+    "AndersZ"
+   ],
+   "race": "Orc"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2467,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Søndagsball#2",
+  "gate": 11000,
+  "home": {
+   "id": "gho",
+   "name": "Ghost",
+   "td": 1,
+   "cas": 4,
+   "kills": 1,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Lizardmen"
+  },
+  "away": {
+   "id": "dea3",
+   "name": "Death's Favour",
+   "td": 0,
+   "cas": 2,
+   "kills": 0,
+   "coach": "Ninja Returns",
+   "coaches": [
+    "Ninja Returns"
+   ],
+   "race": "Shambling Undead"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2468,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Søndagsball#3",
+  "gate": 7000,
+  "home": {
+   "id": "ast",
+   "name": "Astra Imperialis",
+   "td": 2,
+   "cas": 3,
+   "kills": 1,
+   "coach": "JTBringe",
+   "coaches": [
+    "JTBringe"
+   ],
+   "race": "High Elf"
+  },
+  "away": {
+   "id": "nox",
+   "name": "Nox Nobilis",
+   "td": 0,
+   "cas": 2,
+   "kills": 1,
+   "coach": "Anders V",
+   "coaches": [
+    "Anders V"
+   ],
+   "race": "Dark Elf"
+  },
+  "date": "August 16th, 2026",
+  "year": "2026"
  }
 ]
