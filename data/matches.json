@@ -68510,5 +68510,133 @@
   },
   "date": "August 16th, 2026",
   "year": "2026"
+ },
+ {
+  "match_id": 2469,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Torsdagsdæljing",
+  "gate": 10000,
+  "home": {
+   "id": "ast",
+   "name": "Astra Imperialis",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "JTBringe",
+   "coaches": [
+    "JTBringe"
+   ],
+   "race": "High Elf"
+  },
+  "away": {
+   "id": "tob",
+   "name": "ToB Deadliners",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "mael",
+   "coaches": [
+    "mael"
+   ],
+   "race": "Chaos Dwarf"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2470,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 8000,
+  "home": {
+   "id": "nho",
+   "name": "NHO Innlandet",
+   "td": 3,
+   "cas": 0,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "High Elf"
+  },
+  "away": {
+   "id": "bit2",
+   "name": "Bite-Club",
+   "td": 0,
+   "cas": 0,
+   "kills": 0,
+   "coach": "mael",
+   "coaches": [
+    "mael"
+   ],
+   "race": "Vampire"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2471,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 10000,
+  "home": {
+   "id": "god",
+   "name": "Godtogblandet",
+   "td": 1,
+   "cas": 1,
+   "kills": 0,
+   "coach": "Egarb",
+   "coaches": [
+    "Egarb"
+   ],
+   "race": "Old World Alliance"
+  },
+  "away": {
+   "id": "gho",
+   "name": "Ghost",
+   "td": 1,
+   "cas": 6,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Lizardmen"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2472,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Lismarka Hovedarena",
+  "gate": 7000,
+  "home": {
+   "id": "ast",
+   "name": "Astra Imperialis",
+   "td": 1,
+   "cas": 3,
+   "kills": 0,
+   "coach": "JTBringe",
+   "coaches": [
+    "JTBringe"
+   ],
+   "race": "High Elf"
+  },
+  "away": {
+   "id": "dag2",
+   "name": "Da Gobfather",
+   "td": 1,
+   "cas": 1,
+   "kills": 0,
+   "coach": "mael",
+   "coaches": [
+    "mael"
+   ],
+   "race": "Goblin"
+  },
+  "date": "August 24th, 2026",
+  "year": "2026"
  }
 ]

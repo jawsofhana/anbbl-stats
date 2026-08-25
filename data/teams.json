@@ -13595,6 +13595,57 @@
   }
  },
  {
+  "id": "gho",
+  "name": "Ghost",
+  "coach": "RagnarKH",
+  "coaches": [
+   "RagnarKH"
+  ],
+  "race": "Lizardmen",
+  "tv": "1530 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Onsdagsball 1#",
+   "Semi Pro XXII, Stars Ghosted",
+   "Semi Pro XXII, Søndagsball#2",
+   "Semi Pro XXII, TK7 Arena",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 10,
+   "w": 4,
+   "d": 3,
+   "l": 3,
+   "td_for": 13,
+   "td_against": 11,
+   "cas_for": 22,
+   "cas_against": 21,
+   "kills_for": 2,
+   "points": 32,
+   "performance_pct": 55.0,
+   "td_diff": 2,
+   "cas_diff": 1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 6,
+    "w": 3,
+    "d": 1,
+    "l": 2,
+    "td_for": 9,
+    "td_against": 7,
+    "cas_for": 10,
+    "cas_against": 15,
+    "kills_for": 1,
+    "points": 20,
+    "performance_pct": 58.33,
+    "td_diff": 2,
+    "cas_diff": -5
+   }
+  }
+ },
+ {
   "id": "mor",
   "name": "Morgheim Man Manglers",
   "coach": "Hannibal Hector",
@@ -14079,6 +14130,59 @@
   }
  },
  {
+  "id": "god",
+  "name": "Godtogblandet",
+  "coach": "Egarb",
+  "coaches": [
+   "Egarb"
+  ],
+  "race": "Old World Alliance",
+  "tv": "1240 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Casa del Heine#2",
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Onsdagsball#2",
+   "Semi Pro XXII, Søndagsball",
+   "Semi Pro XXII, Søndagsball #4",
+   "Semi Pro XXII, Søndagsball#2",
+   "Semi Pro XXII, Søndagsball#3",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 10,
+   "w": 3,
+   "d": 4,
+   "l": 3,
+   "td_for": 9,
+   "td_against": 9,
+   "cas_for": 18,
+   "cas_against": 26,
+   "kills_for": 4,
+   "points": 30,
+   "performance_pct": 50.0,
+   "td_diff": 0,
+   "cas_diff": -8
+  },
+  "by_year": {
+   "2026": {
+    "gp": 8,
+    "w": 3,
+    "d": 2,
+    "l": 3,
+    "td_for": 7,
+    "td_against": 7,
+    "cas_for": 17,
+    "cas_against": 18,
+    "kills_for": 4,
+    "points": 24,
+    "performance_pct": 50.0,
+    "td_diff": 0,
+    "cas_diff": -1
+   }
+  }
+ },
+ {
   "id": "out",
   "name": "Outlaws and outsiders",
   "coach": "Wam",
@@ -14373,57 +14477,6 @@
   }
  },
  {
-  "id": "gho",
-  "name": "Ghost",
-  "coach": "RagnarKH",
-  "coaches": [
-   "RagnarKH"
-  ],
-  "race": "Lizardmen",
-  "tv": "1410 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena",
-   "Semi Pro XXII, Onsdagsball 1#",
-   "Semi Pro XXII, Stars Ghosted",
-   "Semi Pro XXII, Søndagsball#2",
-   "Semi Pro XXII, TK7 Arena",
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 9,
-   "w": 4,
-   "d": 2,
-   "l": 3,
-   "td_for": 12,
-   "td_against": 10,
-   "cas_for": 16,
-   "cas_against": 20,
-   "kills_for": 2,
-   "points": 29,
-   "performance_pct": 55.56,
-   "td_diff": 2,
-   "cas_diff": -4
-  },
-  "by_year": {
-   "2026": {
-    "gp": 6,
-    "w": 3,
-    "d": 1,
-    "l": 2,
-    "td_for": 9,
-    "td_against": 7,
-    "cas_for": 10,
-    "cas_against": 15,
-    "kills_for": 1,
-    "points": 20,
-    "performance_pct": 58.33,
-    "td_diff": 2,
-    "cas_diff": -5
-   }
-  }
- },
- {
   "id": "und",
   "name": "Underworld Overlords",
   "coach": "Hannibal Hector",
@@ -14690,59 +14743,6 @@
     "cas_against": 4,
     "kills_for": 1,
     "points": 3,
-    "performance_pct": 50.0,
-    "td_diff": 0,
-    "cas_diff": -1
-   }
-  }
- },
- {
-  "id": "god",
-  "name": "Godtogblandet",
-  "coach": "Egarb",
-  "coaches": [
-   "Egarb"
-  ],
-  "race": "Old World Alliance",
-  "tv": "1240 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Casa del Heine#2",
-   "Semi Pro XXII, Furnes Hovedarena",
-   "Semi Pro XXII, Onsdagsball#2",
-   "Semi Pro XXII, Søndagsball",
-   "Semi Pro XXII, Søndagsball #4",
-   "Semi Pro XXII, Søndagsball#2",
-   "Semi Pro XXII, Søndagsball#3",
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 9,
-   "w": 3,
-   "d": 3,
-   "l": 3,
-   "td_for": 8,
-   "td_against": 8,
-   "cas_for": 17,
-   "cas_against": 20,
-   "kills_for": 4,
-   "points": 27,
-   "performance_pct": 50.0,
-   "td_diff": 0,
-   "cas_diff": -3
-  },
-  "by_year": {
-   "2026": {
-    "gp": 8,
-    "w": 3,
-    "d": 2,
-    "l": 3,
-    "td_for": 7,
-    "td_against": 7,
-    "cas_for": 17,
-    "cas_against": 18,
-    "kills_for": 4,
-    "points": 24,
     "performance_pct": 50.0,
     "td_diff": 0,
     "cas_diff": -1
@@ -21645,6 +21645,54 @@
   }
  },
  {
+  "id": "ast",
+  "name": "Astra Imperialis",
+  "coach": "JTBringe",
+  "coaches": [
+   "JTBringe"
+  ],
+  "race": "High Elf",
+  "tv": "1005 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Lismarka Hovedarena",
+   "Semi Pro XXII, Søndagsball#3",
+   "Semi Pro XXII, Torsdagsdæljing"
+  ],
+  "all": {
+   "gp": 3,
+   "w": 1,
+   "d": 2,
+   "l": 0,
+   "td_for": 4,
+   "td_against": 2,
+   "cas_for": 6,
+   "cas_against": 3,
+   "kills_for": 1,
+   "points": 11,
+   "performance_pct": 66.67,
+   "td_diff": 2,
+   "cas_diff": 3
+  },
+  "by_year": {
+   "2026": {
+    "gp": 2,
+    "w": 1,
+    "d": 1,
+    "l": 0,
+    "td_for": 3,
+    "td_against": 1,
+    "cas_for": 6,
+    "cas_against": 3,
+    "kills_for": 1,
+    "points": 8,
+    "performance_pct": 75.0,
+    "td_diff": 2,
+    "cas_diff": 3
+   }
+  }
+ },
+ {
   "id": "mos",
   "name": "MoScow Marines",
   "coach": "?",
@@ -22283,6 +22331,53 @@
     "performance_pct": 100.0,
     "td_diff": 3,
     "cas_diff": -5
+   }
+  }
+ },
+ {
+  "id": "nho",
+  "name": "NHO Innlandet",
+  "coach": "Manoflore",
+  "coaches": [
+   "Manoflore"
+  ],
+  "race": "High Elf",
+  "tv": "1175 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Søndagsball #3"
+  ],
+  "all": {
+   "gp": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "td_for": 5,
+   "td_against": 0,
+   "cas_for": 1,
+   "cas_against": 0,
+   "kills_for": 0,
+   "points": 10,
+   "performance_pct": 100.0,
+   "td_diff": 5,
+   "cas_diff": 1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "td_for": 2,
+    "td_against": 0,
+    "cas_for": 1,
+    "cas_against": 0,
+    "kills_for": 0,
+    "points": 5,
+    "performance_pct": 100.0,
+    "td_diff": 2,
+    "cas_diff": 1
    }
   }
  },
@@ -24266,6 +24361,53 @@
   }
  },
  {
+  "id": "bit2",
+  "name": "Bite-Club",
+  "coach": "mael",
+  "coaches": [
+   "mael"
+  ],
+  "race": "Vampire",
+  "tv": "1070 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "td_for": 2,
+   "td_against": 4,
+   "cas_for": 2,
+   "cas_against": 1,
+   "kills_for": 0,
+   "points": 6,
+   "performance_pct": 50.0,
+   "td_diff": -2,
+   "cas_diff": 1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "td_for": 2,
+    "td_against": 1,
+    "cas_for": 2,
+    "cas_against": 1,
+    "kills_for": 0,
+    "points": 5,
+    "performance_pct": 100.0,
+    "td_diff": 1,
+    "cas_diff": 1
+   }
+  }
+ },
+ {
   "id": "rac",
   "name": "Racerrottene",
   "coach": "RagnarKH",
@@ -24772,144 +24914,6 @@
     "performance_pct": 100.0,
     "td_diff": 1,
     "cas_diff": -2
-   }
-  }
- },
- {
-  "id": "nho",
-  "name": "NHO Innlandet",
-  "coach": "Manoflore",
-  "coaches": [
-   "Manoflore"
-  ],
-  "race": "High Elf",
-  "tv": "1115 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Søndagsball #3"
-  ],
-  "all": {
-   "gp": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "td_for": 2,
-   "td_against": 0,
-   "cas_for": 1,
-   "cas_against": 0,
-   "kills_for": 0,
-   "points": 5,
-   "performance_pct": 100.0,
-   "td_diff": 2,
-   "cas_diff": 1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 1,
-    "w": 1,
-    "d": 0,
-    "l": 0,
-    "td_for": 2,
-    "td_against": 0,
-    "cas_for": 1,
-    "cas_against": 0,
-    "kills_for": 0,
-    "points": 5,
-    "performance_pct": 100.0,
-    "td_diff": 2,
-    "cas_diff": 1
-   }
-  }
- },
- {
-  "id": "bit2",
-  "name": "Bite-Club",
-  "coach": "mael",
-  "coaches": [
-   "mael"
-  ],
-  "race": "Vampire",
-  "tv": "1070 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "td_for": 2,
-   "td_against": 1,
-   "cas_for": 2,
-   "cas_against": 1,
-   "kills_for": 0,
-   "points": 5,
-   "performance_pct": 100.0,
-   "td_diff": 1,
-   "cas_diff": 1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 1,
-    "w": 1,
-    "d": 0,
-    "l": 0,
-    "td_for": 2,
-    "td_against": 1,
-    "cas_for": 2,
-    "cas_against": 1,
-    "kills_for": 0,
-    "points": 5,
-    "performance_pct": 100.0,
-    "td_diff": 1,
-    "cas_diff": 1
-   }
-  }
- },
- {
-  "id": "ast",
-  "name": "Astra Imperialis",
-  "coach": "JTBringe",
-  "coaches": [
-   "JTBringe"
-  ],
-  "race": "High Elf",
-  "tv": "1075 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Søndagsball#3"
-  ],
-  "all": {
-   "gp": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "td_for": 2,
-   "td_against": 0,
-   "cas_for": 3,
-   "cas_against": 2,
-   "kills_for": 1,
-   "points": 5,
-   "performance_pct": 100.0,
-   "td_diff": 2,
-   "cas_diff": 1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 1,
-    "w": 1,
-    "d": 0,
-    "l": 0,
-    "td_for": 2,
-    "td_against": 0,
-    "cas_for": 3,
-    "cas_against": 2,
-    "kills_for": 1,
-    "points": 5,
-    "performance_pct": 100.0,
-    "td_diff": 2,
-    "cas_diff": 1
    }
   }
  },
@@ -25467,6 +25471,53 @@
   }
  },
  {
+  "id": "tob",
+  "name": "ToB Deadliners",
+  "coach": "mael",
+  "coaches": [
+   "mael"
+  ],
+  "race": "Chaos Dwarf",
+  "tv": "1090 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Søndagsball #3",
+   "Semi Pro XXII, Torsdagsdæljing"
+  ],
+  "all": {
+   "gp": 2,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "td_for": 1,
+   "td_against": 3,
+   "cas_for": 0,
+   "cas_against": 1,
+   "kills_for": 0,
+   "points": 4,
+   "performance_pct": 25.0,
+   "td_diff": -2,
+   "cas_diff": -1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "td_for": 0,
+    "td_against": 2,
+    "cas_for": 0,
+    "cas_against": 1,
+    "kills_for": 0,
+    "points": 1,
+    "performance_pct": 0.0,
+    "td_diff": -2,
+    "cas_diff": -1
+   }
+  }
+ },
+ {
   "id": "ork",
   "name": "Orkland Bonebreakers",
   "coach": "Frode",
@@ -25914,6 +25965,52 @@
     "performance_pct": 50.0,
     "td_diff": 0,
     "cas_diff": 0
+   }
+  }
+ },
+ {
+  "id": "dag2",
+  "name": "Da Gobfather",
+  "coach": "mael",
+  "coaches": [
+   "mael"
+  ],
+  "race": "Goblin",
+  "tv": "950 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Lismarka Hovedarena"
+  ],
+  "all": {
+   "gp": 1,
+   "w": 0,
+   "d": 1,
+   "l": 0,
+   "td_for": 1,
+   "td_against": 1,
+   "cas_for": 1,
+   "cas_against": 3,
+   "kills_for": 0,
+   "points": 3,
+   "performance_pct": 50.0,
+   "td_diff": 0,
+   "cas_diff": -2
+  },
+  "by_year": {
+   "2026": {
+    "gp": 1,
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "td_for": 1,
+    "td_against": 1,
+    "cas_for": 1,
+    "cas_against": 3,
+    "kills_for": 0,
+    "points": 3,
+    "performance_pct": 50.0,
+    "td_diff": 0,
+    "cas_diff": -2
    }
   }
  },
@@ -27943,52 +28040,6 @@
     "performance_pct": 0.0,
     "td_diff": -1,
     "cas_diff": -2
-   }
-  }
- },
- {
-  "id": "tob",
-  "name": "ToB Deadliners",
-  "coach": "mael",
-  "coaches": [
-   "mael"
-  ],
-  "race": "Chaos Dwarf",
-  "tv": "1060 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Søndagsball #3"
-  ],
-  "all": {
-   "gp": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "td_for": 0,
-   "td_against": 2,
-   "cas_for": 0,
-   "cas_against": 1,
-   "kills_for": 0,
-   "points": 1,
-   "performance_pct": 0.0,
-   "td_diff": -2,
-   "cas_diff": -1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 1,
-    "w": 0,
-    "d": 0,
-    "l": 1,
-    "td_for": 0,
-    "td_against": 2,
-    "cas_for": 0,
-    "cas_against": 1,
-    "kills_for": 0,
-    "points": 1,
-    "performance_pct": 0.0,
-    "td_diff": -2,
-    "cas_diff": -1
    }
   }
  }
