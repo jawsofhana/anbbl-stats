@@ -68638,5 +68638,69 @@
   },
   "date": "August 24th, 2026",
   "year": "2026"
+ },
+ {
+  "match_id": 2473,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 11000,
+  "home": {
+   "id": "ost2",
+   "name": "Ostre Vallset Avløserlag",
+   "td": 2,
+   "cas": 3,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Old World Alliance"
+  },
+  "away": {
+   "id": "gho",
+   "name": "Ghost",
+   "td": 2,
+   "cas": 0,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Lizardmen"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2474,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 9000,
+  "home": {
+   "id": "mor4",
+   "name": "Morrowind Marauders",
+   "td": 2,
+   "cas": 6,
+   "kills": 1,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Dark Elf"
+  },
+  "away": {
+   "id": "gho",
+   "name": "Ghost",
+   "td": 0,
+   "cas": 2,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Lizardmen"
+  },
+  "date": null,
+  "year": null
  }
 ]
