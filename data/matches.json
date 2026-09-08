@@ -68702,5 +68702,133 @@
   },
   "date": null,
   "year": null
+ },
+ {
+  "match_id": 2475,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 10000,
+  "home": {
+   "id": "ork2",
+   "name": "Orkenøyene",
+   "td": 1,
+   "cas": 4,
+   "kills": 2,
+   "coach": "Egarb",
+   "coaches": [
+    "Egarb"
+   ],
+   "race": "Orc"
+  },
+  "away": {
+   "id": "hun",
+   "name": "Hundremeterskogen",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Dark Elf"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2476,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Casa del Heine",
+  "gate": 11000,
+  "home": {
+   "id": "hun",
+   "name": "Hundremeterskogen",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Dark Elf"
+  },
+  "away": {
+   "id": "cir2",
+   "name": "Cirque du Lune",
+   "td": 1,
+   "cas": 1,
+   "kills": 0,
+   "coach": "Grimhat",
+   "coaches": [
+    "Grimhat"
+   ],
+   "race": "Dark Elf"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2477,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Casa del Heine",
+  "gate": 9000,
+  "home": {
+   "id": "mar",
+   "name": "Marg og Bein",
+   "td": 2,
+   "cas": 3,
+   "kills": 1,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Necromantic Horror"
+  },
+  "away": {
+   "id": "god",
+   "name": "Godtogblandet",
+   "td": 0,
+   "cas": 2,
+   "kills": 0,
+   "coach": "Egarb",
+   "coaches": [
+    "Egarb"
+   ],
+   "race": "Old World Alliance"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2478,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Friday Homegames",
+  "gate": 7000,
+  "home": {
+   "id": "laf",
+   "name": "La Fromagerie F&#279;tide",
+   "td": 0,
+   "cas": 3,
+   "kills": 0,
+   "coach": "Gnulash",
+   "coaches": [
+    "Gnulash"
+   ],
+   "race": "Nurgle"
+  },
+  "away": {
+   "id": "ast",
+   "name": "Astra Imperialis",
+   "td": 4,
+   "cas": 2,
+   "kills": 1,
+   "coach": "JTBringe",
+   "coaches": [
+    "JTBringe"
+   ],
+   "race": "High Elf"
+  },
+  "date": null,
+  "year": null
  }
 ]
