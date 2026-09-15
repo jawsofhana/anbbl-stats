@@ -16288,6 +16288,54 @@
   }
  },
  {
+  "id": "hun",
+  "name": "Hundremeterskogen",
+  "coach": "RagnarKH",
+  "coaches": [
+   "RagnarKH"
+  ],
+  "race": "Dark Elf",
+  "tv": "1245 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXI, Furnes Hovedarena",
+   "Semi Pro XXII, Casa del Heine",
+   "Semi Pro XXII, Furnes Hovedarena"
+  ],
+  "all": {
+   "gp": 7,
+   "w": 2,
+   "d": 4,
+   "l": 1,
+   "td_for": 8,
+   "td_against": 5,
+   "cas_for": 6,
+   "cas_against": 12,
+   "kills_for": 0,
+   "points": 23,
+   "performance_pct": 57.14,
+   "td_diff": 3,
+   "cas_diff": -6
+  },
+  "by_year": {
+   "2025": {
+    "gp": 3,
+    "w": 1,
+    "d": 2,
+    "l": 0,
+    "td_for": 4,
+    "td_against": 1,
+    "cas_for": 3,
+    "cas_against": 5,
+    "kills_for": 0,
+    "points": 11,
+    "performance_pct": 66.67,
+    "td_diff": 3,
+    "cas_diff": -2
+   }
+  }
+ },
+ {
   "id": "kho",
   "name": "Dunkelwald Rammers",
   "coach": "Michael",
@@ -18006,6 +18054,53 @@
   }
  },
  {
+  "id": "ran",
+  "name": "Randsfjorden Ravagers",
+  "coach": "Manoflore",
+  "coaches": [
+   "Manoflore"
+  ],
+  "race": "Norse",
+  "tv": "1240 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Wednesday Wallop"
+  ],
+  "all": {
+   "gp": 6,
+   "w": 3,
+   "d": 1,
+   "l": 2,
+   "td_for": 9,
+   "td_against": 6,
+   "cas_for": 8,
+   "cas_against": 9,
+   "kills_for": 2,
+   "points": 20,
+   "performance_pct": 58.33,
+   "td_diff": 3,
+   "cas_diff": -1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 5,
+    "w": 2,
+    "d": 1,
+    "l": 2,
+    "td_for": 7,
+    "td_against": 6,
+    "cas_for": 7,
+    "cas_against": 8,
+    "kills_for": 2,
+    "points": 15,
+    "performance_pct": 50.0,
+    "td_diff": 1,
+    "cas_diff": -1
+   }
+  }
+ },
+ {
   "id": "big",
   "name": "Big Belly Bunch",
   "coach": "Kaufer",
@@ -19247,50 +19342,52 @@
   }
  },
  {
-  "id": "hun",
-  "name": "Hundremeterskogen",
-  "coach": "RagnarKH",
+  "id": "ast",
+  "name": "Astra Imperialis",
+  "coach": "JTBringe",
   "coaches": [
-   "RagnarKH"
+   "JTBringe"
   ],
-  "race": "Dark Elf",
-  "tv": "1140 k",
+  "race": "High Elf",
+  "tv": "1255 k",
   "deleted": false,
   "tournaments": [
-   "Semi Pro XXI, Furnes Hovedarena",
-   "Semi Pro XXII, Casa del Heine",
-   "Semi Pro XXII, Furnes Hovedarena"
+   "Semi Pro XXII, Friday Homegames",
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Lismarka Hovedarena",
+   "Semi Pro XXII, Søndagsball#3",
+   "Semi Pro XXII, Torsdagsdæljing"
   ],
   "all": {
    "gp": 5,
-   "w": 1,
-   "d": 4,
-   "l": 0,
-   "td_for": 6,
-   "td_against": 3,
-   "cas_for": 3,
-   "cas_against": 10,
-   "kills_for": 0,
+   "w": 2,
+   "d": 2,
+   "l": 1,
+   "td_for": 8,
+   "td_against": 4,
+   "cas_for": 9,
+   "cas_against": 8,
+   "kills_for": 2,
    "points": 17,
    "performance_pct": 60.0,
-   "td_diff": 3,
-   "cas_diff": -7
+   "td_diff": 4,
+   "cas_diff": 1
   },
   "by_year": {
-   "2025": {
-    "gp": 3,
+   "2026": {
+    "gp": 2,
     "w": 1,
-    "d": 2,
+    "d": 1,
     "l": 0,
-    "td_for": 4,
+    "td_for": 3,
     "td_against": 1,
-    "cas_for": 3,
-    "cas_against": 5,
-    "kills_for": 0,
-    "points": 11,
-    "performance_pct": 66.67,
-    "td_diff": 3,
-    "cas_diff": -2
+    "cas_for": 6,
+    "cas_against": 3,
+    "kills_for": 1,
+    "points": 8,
+    "performance_pct": 75.0,
+    "td_diff": 2,
+    "cas_diff": 3
    }
   }
  },
@@ -19412,35 +19509,32 @@
   }
  },
  {
-  "id": "ast",
-  "name": "Astra Imperialis",
-  "coach": "JTBringe",
+  "id": "ork2",
+  "name": "Orkenøyene",
+  "coach": "Egarb",
   "coaches": [
-   "JTBringe"
+   "Egarb"
   ],
-  "race": "High Elf",
-  "tv": "1040 k",
+  "race": "Orc",
+  "tv": "995 k",
   "deleted": false,
   "tournaments": [
-   "Semi Pro XXII, Friday Homegames",
-   "Semi Pro XXII, Lismarka Hovedarena",
-   "Semi Pro XXII, Søndagsball#3",
-   "Semi Pro XXII, Torsdagsdæljing"
+   "Semi Pro XXII, Furnes Hovedarena"
   ],
   "all": {
    "gp": 4,
    "w": 2,
    "d": 2,
    "l": 0,
-   "td_for": 8,
-   "td_against": 2,
-   "cas_for": 8,
-   "cas_against": 6,
-   "kills_for": 2,
+   "td_for": 5,
+   "td_against": 1,
+   "cas_for": 12,
+   "cas_against": 3,
+   "kills_for": 6,
    "points": 16,
    "performance_pct": 75.0,
-   "td_diff": 6,
-   "cas_diff": 2
+   "td_diff": 4,
+   "cas_diff": 9
   },
   "by_year": {
    "2026": {
@@ -19448,15 +19542,15 @@
     "w": 1,
     "d": 1,
     "l": 0,
-    "td_for": 3,
-    "td_against": 1,
+    "td_for": 2,
+    "td_against": 0,
     "cas_for": 6,
-    "cas_against": 3,
-    "kills_for": 1,
+    "cas_against": 1,
+    "kills_for": 3,
     "points": 8,
     "performance_pct": 75.0,
     "td_diff": 2,
-    "cas_diff": 3
+    "cas_diff": 5
    }
   }
  },
@@ -19948,53 +20042,6 @@
     "performance_pct": 50.0,
     "td_diff": 0,
     "cas_diff": 3
-   }
-  }
- },
- {
-  "id": "ran",
-  "name": "Randsfjorden Ravagers",
-  "coach": "Manoflore",
-  "coaches": [
-   "Manoflore"
-  ],
-  "race": "Norse",
-  "tv": "1210 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena",
-   "Semi Pro XXII, Wednesday Wallop"
-  ],
-  "all": {
-   "gp": 5,
-   "w": 2,
-   "d": 1,
-   "l": 2,
-   "td_for": 7,
-   "td_against": 6,
-   "cas_for": 7,
-   "cas_against": 8,
-   "kills_for": 2,
-   "points": 15,
-   "performance_pct": 50.0,
-   "td_diff": 1,
-   "cas_diff": -1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 5,
-    "w": 2,
-    "d": 1,
-    "l": 2,
-    "td_for": 7,
-    "td_against": 6,
-    "cas_for": 7,
-    "cas_against": 8,
-    "kills_for": 2,
-    "points": 15,
-    "performance_pct": 50.0,
-    "td_diff": 1,
-    "cas_diff": -1
    }
   }
  },
@@ -21747,52 +21794,6 @@
     "performance_pct": 66.67,
     "td_diff": 1,
     "cas_diff": -8
-   }
-  }
- },
- {
-  "id": "ork2",
-  "name": "Orkenøyene",
-  "coach": "Egarb",
-  "coaches": [
-   "Egarb"
-  ],
-  "race": "Orc",
-  "tv": "1080 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena"
-  ],
-  "all": {
-   "gp": 3,
-   "w": 1,
-   "d": 2,
-   "l": 0,
-   "td_for": 3,
-   "td_against": 1,
-   "cas_for": 10,
-   "cas_against": 1,
-   "kills_for": 5,
-   "points": 11,
-   "performance_pct": 66.67,
-   "td_diff": 2,
-   "cas_diff": 9
-  },
-  "by_year": {
-   "2026": {
-    "gp": 2,
-    "w": 1,
-    "d": 1,
-    "l": 0,
-    "td_for": 2,
-    "td_against": 0,
-    "cas_for": 6,
-    "cas_against": 1,
-    "kills_for": 3,
-    "points": 8,
-    "performance_pct": 75.0,
-    "td_diff": 2,
-    "cas_diff": 5
    }
   }
  },
@@ -26197,6 +26198,54 @@
   }
  },
  {
+  "id": "nox",
+  "name": "Nox Nobilis",
+  "coach": "Anders V",
+  "coaches": [
+   "Anders V"
+  ],
+  "race": "Dark Elf",
+  "tv": "980 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Søndagsball#3",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 3,
+   "w": 0,
+   "d": 0,
+   "l": 3,
+   "td_for": 0,
+   "td_against": 5,
+   "cas_for": 6,
+   "cas_against": 7,
+   "kills_for": 2,
+   "points": 3,
+   "performance_pct": 0.0,
+   "td_diff": -5,
+   "cas_diff": -1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "td_for": 0,
+    "td_against": 3,
+    "cas_for": 4,
+    "cas_against": 5,
+    "kills_for": 1,
+    "points": 2,
+    "performance_pct": 0.0,
+    "td_diff": -3,
+    "cas_diff": -1
+   }
+  }
+ },
+ {
   "id": "cru",
   "name": "Crushkill Grooves",
   "coach": "Overlord",
@@ -26895,53 +26944,6 @@
     "performance_pct": 0.0,
     "td_diff": -4,
     "cas_diff": 2
-   }
-  }
- },
- {
-  "id": "nox",
-  "name": "Nox Nobilis",
-  "coach": "Anders V",
-  "coaches": [
-   "Anders V"
-  ],
-  "race": "Dark Elf",
-  "tv": "760 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Søndagsball#3",
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 2,
-   "w": 0,
-   "d": 0,
-   "l": 2,
-   "td_for": 0,
-   "td_against": 3,
-   "cas_for": 4,
-   "cas_against": 5,
-   "kills_for": 1,
-   "points": 2,
-   "performance_pct": 0.0,
-   "td_diff": -3,
-   "cas_diff": -1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 2,
-    "w": 0,
-    "d": 0,
-    "l": 2,
-    "td_for": 0,
-    "td_against": 3,
-    "cas_for": 4,
-    "cas_against": 5,
-    "kills_for": 1,
-    "points": 2,
-    "performance_pct": 0.0,
-    "td_diff": -3,
-    "cas_diff": -1
    }
   }
  },

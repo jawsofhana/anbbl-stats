@@ -68830,5 +68830,101 @@
   },
   "date": null,
   "year": null
+ },
+ {
+  "match_id": 2479,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 13000,
+  "home": {
+   "id": "ran",
+   "name": "Randsfjorden Ravagers",
+   "td": 2,
+   "cas": 1,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Norse"
+  },
+  "away": {
+   "id": "hun",
+   "name": "Hundremeterskogen",
+   "td": 0,
+   "cas": 1,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Dark Elf"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2480,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 10000,
+  "home": {
+   "id": "ast",
+   "name": "Astra Imperialis",
+   "td": 0,
+   "cas": 1,
+   "kills": 0,
+   "coach": "JTBringe",
+   "coaches": [
+    "JTBringe"
+   ],
+   "race": "High Elf"
+  },
+  "away": {
+   "id": "hun",
+   "name": "Hundremeterskogen",
+   "td": 2,
+   "cas": 2,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Dark Elf"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2481,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 12000,
+  "home": {
+   "id": "ork2",
+   "name": "Orkenøyene",
+   "td": 2,
+   "cas": 2,
+   "kills": 1,
+   "coach": "Egarb",
+   "coaches": [
+    "Egarb"
+   ],
+   "race": "Orc"
+  },
+  "away": {
+   "id": "nox",
+   "name": "Nox Nobilis",
+   "td": 0,
+   "cas": 2,
+   "kills": 1,
+   "coach": "Anders V",
+   "coaches": [
+    "Anders V"
+   ],
+   "race": "Dark Elf"
+  },
+  "date": null,
+  "year": null
  }
 ]
