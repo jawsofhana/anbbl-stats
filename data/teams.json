@@ -6875,6 +6875,78 @@
   }
  },
  {
+  "id": "rat7",
+  "name": "Ratling Runners",
+  "coach": "Grimhat",
+  "coaches": [
+   "Grimhat"
+  ],
+  "race": "Skaven",
+  "tv": "1390 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXI, Brumundal",
+   "Semi Pro XXI, Hamar",
+   "Semi Pro XXI, Søndagsball",
+   "Semi Pro XXI, Søndagsball#1",
+   "Semi Pro XXI, Søndagsball#2",
+   "Semi Pro XXI, TK7",
+   "Semi Pro XXI, søndagsball",
+   "Semi Pro XXI, søndagsball#2",
+   "Semi Pro XXII, Casa del Heine",
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Søndagsball #1",
+   "Semi Pro XXII, TK7 Arena"
+  ],
+  "all": {
+   "gp": 16,
+   "w": 8,
+   "d": 6,
+   "l": 2,
+   "td_for": 34,
+   "td_against": 21,
+   "cas_for": 24,
+   "cas_against": 42,
+   "kills_for": 5,
+   "points": 60,
+   "performance_pct": 68.75,
+   "td_diff": 13,
+   "cas_diff": -18
+  },
+  "by_year": {
+   "2025": {
+    "gp": 10,
+    "w": 6,
+    "d": 4,
+    "l": 0,
+    "td_for": 24,
+    "td_against": 12,
+    "cas_for": 18,
+    "cas_against": 22,
+    "kills_for": 2,
+    "points": 42,
+    "performance_pct": 80.0,
+    "td_diff": 12,
+    "cas_diff": -4
+   },
+   "2026": {
+    "gp": 5,
+    "w": 1,
+    "d": 2,
+    "l": 2,
+    "td_for": 8,
+    "td_against": 8,
+    "cas_for": 5,
+    "cas_against": 19,
+    "kills_for": 3,
+    "points": 13,
+    "performance_pct": 40.0,
+    "td_diff": 0,
+    "cas_diff": -14
+   }
+  }
+ },
+ {
   "id": "wac",
   "name": "The Wacking Kraken Buccaneers",
   "coach": "ColdNChilly",
@@ -7692,78 +7764,6 @@
     "performance_pct": 50.0,
     "td_diff": 0,
     "cas_diff": -2
-   }
-  }
- },
- {
-  "id": "rat7",
-  "name": "Ratling Runners",
-  "coach": "Grimhat",
-  "coaches": [
-   "Grimhat"
-  ],
-  "race": "Skaven",
-  "tv": "1390 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXI, Brumundal",
-   "Semi Pro XXI, Hamar",
-   "Semi Pro XXI, Søndagsball",
-   "Semi Pro XXI, Søndagsball#1",
-   "Semi Pro XXI, Søndagsball#2",
-   "Semi Pro XXI, TK7",
-   "Semi Pro XXI, søndagsball",
-   "Semi Pro XXI, søndagsball#2",
-   "Semi Pro XXII, Casa del Heine",
-   "Semi Pro XXII, Furnes Hovedarena",
-   "Semi Pro XXII, Søndagsball #1",
-   "Semi Pro XXII, TK7 Arena"
-  ],
-  "all": {
-   "gp": 15,
-   "w": 7,
-   "d": 6,
-   "l": 2,
-   "td_for": 32,
-   "td_against": 20,
-   "cas_for": 23,
-   "cas_against": 41,
-   "kills_for": 5,
-   "points": 55,
-   "performance_pct": 66.67,
-   "td_diff": 12,
-   "cas_diff": -18
-  },
-  "by_year": {
-   "2025": {
-    "gp": 10,
-    "w": 6,
-    "d": 4,
-    "l": 0,
-    "td_for": 24,
-    "td_against": 12,
-    "cas_for": 18,
-    "cas_against": 22,
-    "kills_for": 2,
-    "points": 42,
-    "performance_pct": 80.0,
-    "td_diff": 12,
-    "cas_diff": -4
-   },
-   "2026": {
-    "gp": 5,
-    "w": 1,
-    "d": 2,
-    "l": 2,
-    "td_for": 8,
-    "td_against": 8,
-    "cas_for": 5,
-    "cas_against": 19,
-    "kills_for": 3,
-    "points": 13,
-    "performance_pct": 40.0,
-    "td_diff": 0,
-    "cas_diff": -14
    }
   }
  },
@@ -15756,7 +15756,7 @@
    "Grimhat"
   ],
   "race": "Dark Elf",
-  "tv": "1325 k",
+  "tv": "1435 k",
   "deleted": false,
   "tournaments": [
    "Semi Pro XXII, Casa del Heine",
@@ -15928,6 +15928,54 @@
     "performance_pct": 50.0,
     "td_diff": 0,
     "cas_diff": 2
+   }
+  }
+ },
+ {
+  "id": "hun",
+  "name": "Hundremeterskogen",
+  "coach": "RagnarKH",
+  "coaches": [
+   "RagnarKH"
+  ],
+  "race": "Dark Elf",
+  "tv": "1315 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXI, Furnes Hovedarena",
+   "Semi Pro XXII, Casa del Heine",
+   "Semi Pro XXII, Furnes Hovedarena"
+  ],
+  "all": {
+   "gp": 8,
+   "w": 2,
+   "d": 4,
+   "l": 2,
+   "td_for": 9,
+   "td_against": 7,
+   "cas_for": 7,
+   "cas_against": 13,
+   "kills_for": 0,
+   "points": 24,
+   "performance_pct": 50.0,
+   "td_diff": 2,
+   "cas_diff": -6
+  },
+  "by_year": {
+   "2025": {
+    "gp": 3,
+    "w": 1,
+    "d": 2,
+    "l": 0,
+    "td_for": 4,
+    "td_against": 1,
+    "cas_for": 3,
+    "cas_against": 5,
+    "kills_for": 0,
+    "points": 11,
+    "performance_pct": 66.67,
+    "td_diff": 3,
+    "cas_diff": -2
    }
   }
  },
@@ -16284,54 +16332,6 @@
     "performance_pct": 0.0,
     "td_diff": -1,
     "cas_diff": 0
-   }
-  }
- },
- {
-  "id": "hun",
-  "name": "Hundremeterskogen",
-  "coach": "RagnarKH",
-  "coaches": [
-   "RagnarKH"
-  ],
-  "race": "Dark Elf",
-  "tv": "1245 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXI, Furnes Hovedarena",
-   "Semi Pro XXII, Casa del Heine",
-   "Semi Pro XXII, Furnes Hovedarena"
-  ],
-  "all": {
-   "gp": 7,
-   "w": 2,
-   "d": 4,
-   "l": 1,
-   "td_for": 8,
-   "td_against": 5,
-   "cas_for": 6,
-   "cas_against": 12,
-   "kills_for": 0,
-   "points": 23,
-   "performance_pct": 57.14,
-   "td_diff": 3,
-   "cas_diff": -6
-  },
-  "by_year": {
-   "2025": {
-    "gp": 3,
-    "w": 1,
-    "d": 2,
-    "l": 0,
-    "td_for": 4,
-    "td_against": 1,
-    "cas_for": 3,
-    "cas_against": 5,
-    "kills_for": 0,
-    "points": 11,
-    "performance_pct": 66.67,
-    "td_diff": 3,
-    "cas_diff": -2
    }
   }
  },

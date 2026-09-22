@@ -68926,5 +68926,37 @@
   },
   "date": null,
   "year": null
+ },
+ {
+  "match_id": 2482,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 14000,
+  "home": {
+   "id": "hun",
+   "name": "Hundremeterskogen",
+   "td": 1,
+   "cas": 1,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Dark Elf"
+  },
+  "away": {
+   "id": "rat7",
+   "name": "Ratling Runners",
+   "td": 2,
+   "cas": 1,
+   "kills": 0,
+   "coach": "Grimhat",
+   "coaches": [
+    "Grimhat"
+   ],
+   "race": "Skaven"
+  },
+  "date": null,
+  "year": null
  }
 ]
