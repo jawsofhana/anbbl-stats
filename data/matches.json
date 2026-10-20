@@ -68958,5 +68958,69 @@
   },
   "date": null,
   "year": null
+ },
+ {
+  "match_id": 2483,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 12000,
+  "home": {
+   "id": "cas",
+   "name": "Casa del Chaos",
+   "td": 0,
+   "cas": 0,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Chaos Chosen"
+  },
+  "away": {
+   "id": "ork2",
+   "name": "Orkenøyene",
+   "td": 1,
+   "cas": 2,
+   "kills": 0,
+   "coach": "Egarb",
+   "coaches": [
+    "Egarb"
+   ],
+   "race": "Orc"
+  },
+  "date": "October 18th, 2026",
+  "year": "2026"
+ },
+ {
+  "match_id": 2484,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 11000,
+  "home": {
+   "id": "cas",
+   "name": "Casa del Chaos",
+   "td": 0,
+   "cas": 1,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Chaos Chosen"
+  },
+  "away": {
+   "id": "kva2",
+   "name": "Kvasse Kvister",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Wood Elf"
+  },
+  "date": "October 19th, 2026",
+  "year": "2026"
  }
 ]
