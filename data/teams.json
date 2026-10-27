@@ -8837,6 +8837,77 @@
   }
  },
  {
+  "id": "fru",
+  "name": "Fruktfatet",
+  "coach": "RagnarKH",
+  "coaches": [
+   "RagnarKH"
+  ],
+  "race": "Orc",
+  "tv": "1320 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXI, Furnes",
+   "Semi Pro XXI, Furnes Hovedarena",
+   "Semi Pro XXI, søndagsball",
+   "Semi Pro XXII, Furnes Hovedarena",
+   "Semi Pro XXII, Kulturutveksling#1",
+   "Semi Pro XXII, Søndagsball #2",
+   "Semi Pro XXII, Søndagsball #4",
+   "Semi Pro XXII, Søndagsball#1",
+   "Semi Pro XXII, Søndagsball#4",
+   "Semi Pro XXII, TK7 Arena",
+   "Semi Pro XXII, søndagsball"
+  ],
+  "all": {
+   "gp": 19,
+   "w": 6,
+   "d": 4,
+   "l": 9,
+   "td_for": 20,
+   "td_against": 23,
+   "cas_for": 36,
+   "cas_against": 28,
+   "kills_for": 4,
+   "points": 51,
+   "performance_pct": 42.11,
+   "td_diff": -3,
+   "cas_diff": 8
+  },
+  "by_year": {
+   "2025": {
+    "gp": 5,
+    "w": 0,
+    "d": 2,
+    "l": 3,
+    "td_for": 4,
+    "td_against": 8,
+    "cas_for": 6,
+    "cas_against": 6,
+    "kills_for": 1,
+    "points": 9,
+    "performance_pct": 20.0,
+    "td_diff": -4,
+    "cas_diff": 0
+   },
+   "2026": {
+    "gp": 13,
+    "w": 5,
+    "d": 2,
+    "l": 6,
+    "td_for": 14,
+    "td_against": 14,
+    "cas_for": 25,
+    "cas_against": 20,
+    "kills_for": 2,
+    "points": 37,
+    "performance_pct": 46.15,
+    "td_diff": 0,
+    "cas_diff": 5
+   }
+  }
+ },
+ {
   "id": "rat5",
   "name": "Rattsburgh Skitters",
   "coach": "AtleSP",
@@ -9924,77 +9995,6 @@
     "performance_pct": 75.0,
     "td_diff": 4,
     "cas_diff": -6
-   }
-  }
- },
- {
-  "id": "fru",
-  "name": "Fruktfatet",
-  "coach": "RagnarKH",
-  "coaches": [
-   "RagnarKH"
-  ],
-  "race": "Orc",
-  "tv": "1330 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXI, Furnes",
-   "Semi Pro XXI, Furnes Hovedarena",
-   "Semi Pro XXI, søndagsball",
-   "Semi Pro XXII, Furnes Hovedarena",
-   "Semi Pro XXII, Kulturutveksling#1",
-   "Semi Pro XXII, Søndagsball #2",
-   "Semi Pro XXII, Søndagsball #4",
-   "Semi Pro XXII, Søndagsball#1",
-   "Semi Pro XXII, Søndagsball#4",
-   "Semi Pro XXII, TK7 Arena",
-   "Semi Pro XXII, søndagsball"
-  ],
-  "all": {
-   "gp": 18,
-   "w": 5,
-   "d": 4,
-   "l": 9,
-   "td_for": 18,
-   "td_against": 22,
-   "cas_for": 31,
-   "cas_against": 26,
-   "kills_for": 3,
-   "points": 46,
-   "performance_pct": 38.89,
-   "td_diff": -4,
-   "cas_diff": 5
-  },
-  "by_year": {
-   "2025": {
-    "gp": 5,
-    "w": 0,
-    "d": 2,
-    "l": 3,
-    "td_for": 4,
-    "td_against": 8,
-    "cas_for": 6,
-    "cas_against": 6,
-    "kills_for": 1,
-    "points": 9,
-    "performance_pct": 20.0,
-    "td_diff": -4,
-    "cas_diff": 0
-   },
-   "2026": {
-    "gp": 13,
-    "w": 5,
-    "d": 2,
-    "l": 6,
-    "td_for": 14,
-    "td_against": 14,
-    "cas_for": 25,
-    "cas_against": 20,
-    "kills_for": 2,
-    "points": 37,
-    "performance_pct": 46.15,
-    "td_diff": 0,
-    "cas_diff": 5
    }
   }
  },
@@ -15328,6 +15328,69 @@
   }
  },
  {
+  "id": "lio",
+  "name": "Lions Club Furnes",
+  "coach": "Manoflore",
+  "coaches": [
+   "Manoflore"
+  ],
+  "race": "Imperial Nobility",
+  "tv": "1120 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXI, Furnes Hovedarena",
+   "Semi Pro XXII, Fangehula, celle 2",
+   "Semi Pro XXII, Furnes Hovedarena"
+  ],
+  "all": {
+   "gp": 8,
+   "w": 3,
+   "d": 3,
+   "l": 2,
+   "td_for": 12,
+   "td_against": 9,
+   "cas_for": 14,
+   "cas_against": 14,
+   "kills_for": 1,
+   "points": 26,
+   "performance_pct": 56.25,
+   "td_diff": 3,
+   "cas_diff": 0
+  },
+  "by_year": {
+   "2025": {
+    "gp": 3,
+    "w": 0,
+    "d": 2,
+    "l": 1,
+    "td_for": 1,
+    "td_against": 4,
+    "cas_for": 4,
+    "cas_against": 5,
+    "kills_for": 0,
+    "points": 7,
+    "performance_pct": 33.33,
+    "td_diff": -3,
+    "cas_diff": -1
+   },
+   "2026": {
+    "gp": 3,
+    "w": 2,
+    "d": 1,
+    "l": 0,
+    "td_for": 7,
+    "td_against": 2,
+    "cas_for": 7,
+    "cas_against": 4,
+    "kills_for": 1,
+    "points": 13,
+    "performance_pct": 83.33,
+    "td_diff": 5,
+    "cas_diff": 3
+   }
+  }
+ },
+ {
   "id": "lep",
   "name": "Leprous",
   "coach": "Manoflore",
@@ -16941,6 +17004,53 @@
   }
  },
  {
+  "id": "ork2",
+  "name": "Orkenøyene",
+  "coach": "Egarb",
+  "coaches": [
+   "Egarb"
+  ],
+  "race": "Orc",
+  "tv": "1180 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Fangehula, celle 2",
+   "Semi Pro XXII, Furnes Hovedarena"
+  ],
+  "all": {
+   "gp": 6,
+   "w": 3,
+   "d": 2,
+   "l": 1,
+   "td_for": 7,
+   "td_against": 4,
+   "cas_for": 14,
+   "cas_against": 4,
+   "kills_for": 6,
+   "points": 22,
+   "performance_pct": 66.67,
+   "td_diff": 3,
+   "cas_diff": 10
+  },
+  "by_year": {
+   "2026": {
+    "gp": 3,
+    "w": 2,
+    "d": 1,
+    "l": 0,
+    "td_for": 3,
+    "td_against": 0,
+    "cas_for": 8,
+    "cas_against": 1,
+    "kills_for": 3,
+    "points": 13,
+    "performance_pct": 83.33,
+    "td_diff": 3,
+    "cas_diff": 7
+   }
+  }
+ },
+ {
   "id": "nes",
   "name": "NeseBlod",
   "coach": "Gurthogg",
@@ -17528,52 +17638,6 @@
   }
  },
  {
-  "id": "ork2",
-  "name": "Orkenøyene",
-  "coach": "Egarb",
-  "coaches": [
-   "Egarb"
-  ],
-  "race": "Orc",
-  "tv": "1160 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena"
-  ],
-  "all": {
-   "gp": 5,
-   "w": 3,
-   "d": 2,
-   "l": 0,
-   "td_for": 6,
-   "td_against": 1,
-   "cas_for": 14,
-   "cas_against": 3,
-   "kills_for": 6,
-   "points": 21,
-   "performance_pct": 80.0,
-   "td_diff": 5,
-   "cas_diff": 11
-  },
-  "by_year": {
-   "2026": {
-    "gp": 3,
-    "w": 2,
-    "d": 1,
-    "l": 0,
-    "td_for": 3,
-    "td_against": 0,
-    "cas_for": 8,
-    "cas_against": 1,
-    "kills_for": 3,
-    "points": 13,
-    "performance_pct": 83.33,
-    "td_diff": 3,
-    "cas_diff": 7
-   }
-  }
- },
- {
   "id": "sau",
   "name": "Saucy Salamanders",
   "coach": "Styrker",
@@ -18034,68 +18098,6 @@
     "performance_pct": 50.0,
     "td_diff": -3,
     "cas_diff": -6
-   }
-  }
- },
- {
-  "id": "lio",
-  "name": "Lions Club Furnes",
-  "coach": "Manoflore",
-  "coaches": [
-   "Manoflore"
-  ],
-  "race": "Imperial Nobility",
-  "tv": "1235 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXI, Furnes Hovedarena",
-   "Semi Pro XXII, Furnes Hovedarena"
-  ],
-  "all": {
-   "gp": 6,
-   "w": 2,
-   "d": 3,
-   "l": 1,
-   "td_for": 8,
-   "td_against": 6,
-   "cas_for": 11,
-   "cas_against": 9,
-   "kills_for": 1,
-   "points": 20,
-   "performance_pct": 58.33,
-   "td_diff": 2,
-   "cas_diff": 2
-  },
-  "by_year": {
-   "2025": {
-    "gp": 3,
-    "w": 0,
-    "d": 2,
-    "l": 1,
-    "td_for": 1,
-    "td_against": 4,
-    "cas_for": 4,
-    "cas_against": 5,
-    "kills_for": 0,
-    "points": 7,
-    "performance_pct": 33.33,
-    "td_diff": -3,
-    "cas_diff": -1
-   },
-   "2026": {
-    "gp": 3,
-    "w": 2,
-    "d": 1,
-    "l": 0,
-    "td_for": 7,
-    "td_against": 2,
-    "cas_for": 7,
-    "cas_against": 4,
-    "kills_for": 1,
-    "points": 13,
-    "performance_pct": 83.33,
-    "td_diff": 5,
-    "cas_diff": 3
    }
   }
  },
@@ -19506,6 +19508,57 @@
   }
  },
  {
+  "id": "dog",
+  "name": "The Dogs Bollocks",
+  "coach": "Anders V",
+  "coaches": [
+   "Anders V"
+  ],
+  "race": "Bretonnian",
+  "tv": "1380 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Fangehula, celle 1",
+   "Semi Pro XXII, Søndagsball",
+   "Semi Pro XXII, Søndagsball #2",
+   "Semi Pro XXII, Søndagsball#1",
+   "Semi Pro XXII, Søndagsball#2",
+   "Semi Pro XXII, Søndagsball#5"
+  ],
+  "all": {
+   "gp": 7,
+   "w": 2,
+   "d": 1,
+   "l": 4,
+   "td_for": 6,
+   "td_against": 9,
+   "cas_for": 7,
+   "cas_against": 18,
+   "kills_for": 1,
+   "points": 17,
+   "performance_pct": 35.71,
+   "td_diff": -3,
+   "cas_diff": -11
+  },
+  "by_year": {
+   "2026": {
+    "gp": 6,
+    "w": 2,
+    "d": 1,
+    "l": 3,
+    "td_for": 5,
+    "td_against": 7,
+    "cas_for": 5,
+    "cas_against": 17,
+    "kills_for": 1,
+    "points": 16,
+    "performance_pct": 41.67,
+    "td_diff": -2,
+    "cas_diff": -12
+   }
+  }
+ },
+ {
   "id": "bar3",
   "name": "Bardu Blueballers",
   "coach": "Capt CTRL",
@@ -19719,56 +19772,6 @@
     "performance_pct": 41.67,
     "td_diff": -1,
     "cas_diff": 2
-   }
-  }
- },
- {
-  "id": "dog",
-  "name": "The Dogs Bollocks",
-  "coach": "Anders V",
-  "coaches": [
-   "Anders V"
-  ],
-  "race": "Bretonnian",
-  "tv": "1115 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Søndagsball",
-   "Semi Pro XXII, Søndagsball #2",
-   "Semi Pro XXII, Søndagsball#1",
-   "Semi Pro XXII, Søndagsball#2",
-   "Semi Pro XXII, Søndagsball#5"
-  ],
-  "all": {
-   "gp": 6,
-   "w": 2,
-   "d": 1,
-   "l": 3,
-   "td_for": 5,
-   "td_against": 7,
-   "cas_for": 5,
-   "cas_against": 17,
-   "kills_for": 1,
-   "points": 16,
-   "performance_pct": 41.67,
-   "td_diff": -2,
-   "cas_diff": -12
-  },
-  "by_year": {
-   "2026": {
-    "gp": 6,
-    "w": 2,
-    "d": 1,
-    "l": 3,
-    "td_for": 5,
-    "td_against": 7,
-    "cas_for": 5,
-    "cas_against": 17,
-    "kills_for": 1,
-    "points": 16,
-    "performance_pct": 41.67,
-    "td_diff": -2,
-    "cas_diff": -12
    }
   }
  },
@@ -22437,6 +22440,52 @@
   }
  },
  {
+  "id": "kva2",
+  "name": "Kvasse Kvister",
+  "coach": "Manoflore",
+  "coaches": [
+   "Manoflore"
+  ],
+  "race": "Wood Elf",
+  "tv": "1030 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Furnes Hovedarena"
+  ],
+  "all": {
+   "gp": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "td_for": 3,
+   "td_against": 1,
+   "cas_for": 1,
+   "cas_against": 3,
+   "kills_for": 0,
+   "points": 10,
+   "performance_pct": 100.0,
+   "td_diff": 2,
+   "cas_diff": -2
+  },
+  "by_year": {
+   "2026": {
+    "gp": 1,
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "td_for": 1,
+    "td_against": 0,
+    "cas_for": 0,
+    "cas_against": 1,
+    "kills_for": 0,
+    "points": 5,
+    "performance_pct": 100.0,
+    "td_diff": 1,
+    "cas_diff": -1
+   }
+  }
+ },
+ {
   "id": "cho",
   "name": "Chodron Dragons",
   "coach": "Rywhandar",
@@ -23238,6 +23287,53 @@
     "performance_pct": 25.0,
     "td_diff": -4,
     "cas_diff": -2
+   }
+  }
+ },
+ {
+  "id": "cas",
+  "name": "Casa del Chaos",
+  "coach": "RagnarKH",
+  "coaches": [
+   "RagnarKH"
+  ],
+  "race": "Chaos Chosen",
+  "tv": "1185 k",
+  "deleted": false,
+  "tournaments": [
+   "Semi Pro XXII, Fangehula, celle 1",
+   "Semi Pro XXII, Furnes Hovedarena"
+  ],
+  "all": {
+   "gp": 4,
+   "w": 1,
+   "d": 0,
+   "l": 3,
+   "td_for": 3,
+   "td_against": 5,
+   "cas_for": 4,
+   "cas_against": 5,
+   "kills_for": 0,
+   "points": 8,
+   "performance_pct": 25.0,
+   "td_diff": -2,
+   "cas_diff": -1
+  },
+  "by_year": {
+   "2026": {
+    "gp": 2,
+    "w": 0,
+    "d": 0,
+    "l": 2,
+    "td_for": 0,
+    "td_against": 2,
+    "cas_for": 1,
+    "cas_against": 2,
+    "kills_for": 0,
+    "points": 2,
+    "performance_pct": 0.0,
+    "td_diff": -2,
+    "cas_diff": -1
    }
   }
  },
@@ -24923,52 +25019,6 @@
     "performance_pct": 100.0,
     "td_diff": 1,
     "cas_diff": -2
-   }
-  }
- },
- {
-  "id": "kva2",
-  "name": "Kvasse Kvister",
-  "coach": "Manoflore",
-  "coaches": [
-   "Manoflore"
-  ],
-  "race": "Wood Elf",
-  "tv": "925 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena"
-  ],
-  "all": {
-   "gp": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "td_for": 1,
-   "td_against": 0,
-   "cas_for": 0,
-   "cas_against": 1,
-   "kills_for": 0,
-   "points": 5,
-   "performance_pct": 100.0,
-   "td_diff": 1,
-   "cas_diff": -1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 1,
-    "w": 1,
-    "d": 0,
-    "l": 0,
-    "td_for": 1,
-    "td_against": 0,
-    "cas_for": 0,
-    "cas_against": 1,
-    "kills_for": 0,
-    "points": 5,
-    "performance_pct": 100.0,
-    "td_diff": 1,
-    "cas_diff": -1
    }
   }
  },
@@ -26990,52 +27040,6 @@
     "performance_pct": 0.0,
     "td_diff": -4,
     "cas_diff": 2
-   }
-  }
- },
- {
-  "id": "cas",
-  "name": "Casa del Chaos",
-  "coach": "RagnarKH",
-  "coaches": [
-   "RagnarKH"
-  ],
-  "race": "Chaos Chosen",
-  "tv": "1125 k",
-  "deleted": false,
-  "tournaments": [
-   "Semi Pro XXII, Furnes Hovedarena"
-  ],
-  "all": {
-   "gp": 2,
-   "w": 0,
-   "d": 0,
-   "l": 2,
-   "td_for": 0,
-   "td_against": 2,
-   "cas_for": 1,
-   "cas_against": 2,
-   "kills_for": 0,
-   "points": 2,
-   "performance_pct": 0.0,
-   "td_diff": -2,
-   "cas_diff": -1
-  },
-  "by_year": {
-   "2026": {
-    "gp": 2,
-    "w": 0,
-    "d": 0,
-    "l": 2,
-    "td_for": 0,
-    "td_against": 2,
-    "cas_for": 1,
-    "cas_against": 2,
-    "kills_for": 0,
-    "points": 2,
-    "performance_pct": 0.0,
-    "td_diff": -2,
-    "cas_diff": -1
    }
   }
  },

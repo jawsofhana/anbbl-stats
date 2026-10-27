@@ -69022,5 +69022,133 @@
   },
   "date": "October 19th, 2026",
   "year": "2026"
+ },
+ {
+  "match_id": 2485,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 7000,
+  "home": {
+   "id": "cas",
+   "name": "Casa del Chaos",
+   "td": 1,
+   "cas": 2,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Chaos Chosen"
+  },
+  "away": {
+   "id": "kva2",
+   "name": "Kvasse Kvister",
+   "td": 2,
+   "cas": 1,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Wood Elf"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2486,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Fangehula, celle 1",
+  "gate": 6000,
+  "home": {
+   "id": "dog",
+   "name": "The Dogs Bollocks",
+   "td": 1,
+   "cas": 2,
+   "kills": 0,
+   "coach": "Anders V",
+   "coaches": [
+    "Anders V"
+   ],
+   "race": "Bretonnian"
+  },
+  "away": {
+   "id": "cas",
+   "name": "Casa del Chaos",
+   "td": 2,
+   "cas": 1,
+   "kills": 0,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Chaos Chosen"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2487,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Fangehula, celle 2",
+  "gate": 13000,
+  "home": {
+   "id": "ork2",
+   "name": "Orkenøyene",
+   "td": 1,
+   "cas": 0,
+   "kills": 0,
+   "coach": "Egarb",
+   "coaches": [
+    "Egarb"
+   ],
+   "race": "Orc"
+  },
+  "away": {
+   "id": "lio",
+   "name": "Lions Club Furnes",
+   "td": 3,
+   "cas": 1,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Imperial Nobility"
+  },
+  "date": null,
+  "year": null
+ },
+ {
+  "match_id": 2488,
+  "tournament_id": "49",
+  "tournament": "Semi Pro XXII, Furnes Hovedarena",
+  "gate": 9000,
+  "home": {
+   "id": "lio",
+   "name": "Lions Club Furnes",
+   "td": 1,
+   "cas": 2,
+   "kills": 0,
+   "coach": "Manoflore",
+   "coaches": [
+    "Manoflore"
+   ],
+   "race": "Imperial Nobility"
+  },
+  "away": {
+   "id": "fru",
+   "name": "Fruktfatet",
+   "td": 2,
+   "cas": 5,
+   "kills": 1,
+   "coach": "RagnarKH",
+   "coaches": [
+    "RagnarKH"
+   ],
+   "race": "Orc"
+  },
+  "date": null,
+  "year": null
  }
 ]
